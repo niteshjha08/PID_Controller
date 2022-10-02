@@ -1,8 +1,7 @@
+// Includes
+#include <cmath>
 #include <iostream>
-#include <lib.hpp>
+// Header file for PIDController class
+#include "pid_controller.hpp"
 
-int main()
-{
-    dummy();
-    return 0;
-}
+int main() { return 0; }
