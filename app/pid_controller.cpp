@@ -32,8 +32,6 @@ PIDController::PIDController(double Kp, double Kd, double Ki) {
 PIDController::~PIDController() {}
 // Compute new velocity given current and target velocities
 double PIDController::compute(double curr_vel, double target_vel) {
-  // TODO: Check if curr_vel needs to be passed or use object's member
-
   current_velocity_ = 1.0;
   return 1.0;
 }
