@@ -1,3 +1,13 @@
+/**
+ * @copyright Copyright (c) 2022
+ * @file main.cpp for unit tests
+ * @author Part 1: Nitesh Jha(Driver), Smit Dumore (Navigator)
+ * @brief Unit tests for PID controller
+ * @version 0.1
+ * @date 2022-10-01
+ *
+ *
+ */
 #include <gtest/gtest.h>
 
 int main(int argc, char** argv) {
