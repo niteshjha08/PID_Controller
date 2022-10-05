@@ -18,7 +18,7 @@
 int main() {
   PIDController controller(0.6, 0.01, 0.05);
   double k = controller.compute(-4, -20);
-  // double s = controller.get_current_velocity();
+  double s = controller.get_current_velocity();
   std::cout << "the velocity is " << k << std::endl;
   return 0;
 }
