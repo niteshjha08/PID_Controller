@@ -2,6 +2,8 @@
  * @copyright Copyright (c) 2022
  * @file pid_controller.cpp
  * @author Part 1: Nitesh Jha (Driver), Smit Dumore (Navigator)
+ * @author Part 2: Dhanush Babu Allam(Driver), Naveen Mangla (Navigator)
+
  * @brief Class definition of PIDController Class
  * @version 0.1
  * @date 2022-10-01
