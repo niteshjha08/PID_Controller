@@ -3,6 +3,7 @@
  * @copyright Copyright (c) 2022
  * @file pid_controller.hpp
  * @author Part 1: Nitesh Jha (Driver), Smit Dumore (Navigator)
+ * @author Part 2: Dhanush Babu Allam (Driver), Naveen Mangla (Navigator)
  *
  * @brief Header file for the PID Controller class
  * @section DESCRIPTION
@@ -14,8 +15,8 @@
  *
  *
  */
-#ifndef PID_CONTROLLER_
-#define PID_CONTROLLER_
+#ifndef INCLUDE_PID_CONTROLLER_HPP_
+#define INCLUDE_PID_CONTROLLER_HPP_
 
 /**
  * @brief Class declaration of PID controller
@@ -67,4 +68,4 @@ class PIDController {
   double sampling_rate_;
 };
 
-#endif
+#endif  // INCLUDE_PID_CONTROLLER_HPP_

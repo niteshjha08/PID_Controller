@@ -8,6 +8,22 @@ Implementation of PID Controller using Test Driven Development.
 - Nitesh Jha (Driver)
 - Smit Dumore (Navigator)
 
+### Part 2
+- Dhanush Babu Allam (Driver)
+- Naveen Mangla (Navigator)
+
+## Notes:
+### Part 2 Updates:
+- Added 0 and negative Test cases 
+- Added test case for get_current_velocity()
+- cpplint check and update 
+- Files Updated:
+    - app/main.cpp
+    - app/pid_controller.cpp
+    - test/test.cpp
+
+
+
 ## Overview
 
 Test Driven Development for implementing a PID controller with cmake and googletest
