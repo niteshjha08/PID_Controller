@@ -36,8 +36,6 @@ double PIDController::compute(double curr_vel, double target_vel) {
                             K_d_ * (error - prev_error_) / sampling_rate_ +
                             K_i_ * total_integral_error_;
 
-  // current_velocity_ = 1.0;
-  // return 1.0;
   prev_error_ = error;
   current_velocity_ = updated_velocity;  // updating current valocity
   return updated_velocity;
