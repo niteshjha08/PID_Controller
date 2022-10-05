@@ -8,6 +8,10 @@ Implementation of PID Controller using Test Driven Development.
 - Nitesh Jha (Driver)
 - Smit Dumore (Navigator)
 
+### Part 2
+- Dhanush Babu Allam (Driver)
+- Naveen Mangla (Navigator)
+
 ## Overview
 
 Test Driven Development for implementing a PID controller with cmake and googletest
